@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Mohammad\Desktop\lab2-20180203T211916Z-001\lab2\ADCSWTrigger.uvproj
+Project File Date:  02/03/2018
+
+<h2>Output:</h2>
+Build target 'ADCSWTrigger'
+compiling ADCTestMain.c...
+linking...
+Program Size: Code=4636 RO-data=2052 RW-data=80 ZI-data=17128  
+".\ADCSWTrigger.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Mohammad\\Desktop\\lab2-20180203T211916Z-001\\lab2\\ADCSWTrigger.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Trigger.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Error: Target DLL has been cancelled. Debugger aborted !
+"C:\\Users\\Mohammad\\Desktop\\lab2-20180203T211916Z-001\\lab2\\ADCSWTrigger.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+), 0 Warning(s).
+Target not created
+TR_REDTAB);
+./fixed.c(137): error:  #20: identifier "INITR_REDTAB" is undefined
+    ST7735_InitR(INITR_REDTAB);
+./fixed.c(138): warning:  #223-D: function "ST7735_OutString" declared implicitly
+    ST7735_OutString(title);
+./fixed.c(139): warning:  #223-D: function "ST7735_PlotClear" declared implicitly
+        ST7735_PlotClear(minY,maxY);
+./fixed.c(162): warning:  #223-D: function "ST7735_DrawPixel" declared implicitly
+                ST7735_DrawPixel(127*(bufX[j]-min_X)/range_X, 159 - (127*(bufY[j]-min_Y)/range_Y), ST7735_BLUE);
+./fixed.c(162): error:  #20: identifier "ST7735_BLUE" is undefined
+                ST7735_DrawPixel(127*(bufX[j]-min_X)/range_X, 159 - (127*(bufY[j]-min_Y)/range_Y), ST7735_BLUE);
+ST7735.h(126): error:  #159: declaration is incompatible with previous "ST7735_InitR" (declared at line 137 of "./fixed.c")
+  void ST7735_InitR(enum initRFlags option);
+ST7735.h(140): error:  #159: declaration is incompatible with previous "ST7735_DrawPixel" (declared at line 162 of "./fixed.c")
+  void ST7735_DrawPixel(int16_t x, int16_t y, uint16_t color);
+ST7735.h(313): error:  #159: declaration is incompatible with previous "ST7735_PlotClear" (declared at line 139 of "./fixed.c")
+  void ST7735_PlotClear(int32_t ymin, int32_t ymax);
+ST7735.h(426): error:  #159: declaration is incompatible with previous "ST7735_OutString" (declared at line 32 of "./fixed.c")
+  void ST7735_OutString(char *ptr);
+ADCTestMain.c: 8 warnings, 7 errors
+".\ADCSWTrigger.axf" - 7 Error(s), 8 Warning(s).
+Target not created
+r parameter marked with attribute "nonnull"
+                                fputc(32, NULL);
+./fixed.c(55): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                                fputc(32, NULL);
+./fixed.c(56): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(32, NULL);
+./fixed.c(62): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                                 fputc(32, NULL);
+./fixed.c(63): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                                 fputc(32, NULL);
+./fixed.c(67): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(45, NULL);
+./fixed.c(70): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+           fputc(n / 1000 + 48, NULL);
+./fixed.c(73): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+        else fputc(32, NULL);
+./fixed.c(76): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+           fputc(45, NULL);
+./fixed.c(79): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+           fputc(n / 100 + 48, NULL);
+./fixed.c(83): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                                fputc(48, NULL); // 0
+./fixed.c(85): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+        fputc(46, NULL);
+./fixed.c(88): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+           fputc(n / 10 + 48, NULL);
+./fixed.c(91): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+        else fputc(48, NULL);
+./fixed.c(93): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+        fputc(n + 48, NULL);
+./fixed.c(123): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(32, NULL);
+./fixed.c(124): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(32, NULL);
+./fixed.c(128): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(42, NULL);
+./fixed.c(130): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(46,NULL);
+./fixed.c(131): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(42,NULL);
+./fixed.c(132): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+          fputc(42,NULL);
+./fixed.c(139): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(32,NULL);
+./fixed.c(140): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(32,NULL);
+./fixed.c(141): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(48,NULL); // print 0. by default 
+./fixed.c(142): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(46,NULL);
+./fixed.c(146): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                  fputc(temp+48, NULL);   //print that digit
+./fixed.c(157): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                      fputc(32,NULL);
+./fixed.c(161): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+              fputc(temp+48,NULL); // output most significant digit 
+./fixed.c(165): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                      fputc(46,NULL);     // printout "." 
+./fixed.c(168): warning:  #2748-D: null argument provided for parameter marked with attribute "nonnull"
+                  fputc(temp+48, NULL);
+ADCTestMain.c: 46 warnings, 0 errors
+compiling PLL.c...
+linking...
+.\ADCSWTrigger.axf: Error: L6218E: Undefined symbol ST7735_DrawPixel (referred from adctestmain.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\ADCSWTrigger.axf" - 1 Error(s), 46 Warning(s).
+Target not created
+t" declared implicitly
+  ST7735_XYplotInit("ADC_LAB", min, max, 0, y_range);
+ADCTestMain.c(129): warning:  #223-D: function "ST7735_XYplot" declared implicitly
+  ST7735_XYplot(num_x_values, (int32_t*)x_value, (int32_t*)probmassfunc);
+ADCTestMain.c: 2 warnings, 0 errors
+"ADCTestMain.c" - 0 Error(s), 2 Warning(s).
